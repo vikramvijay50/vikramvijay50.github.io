@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/style.css"></style>
+  <title>Narrative Visualization</title>
+  <script src="scripts/d3.min.js"></script>
+  <script src="scripts/d3-annotation.min.js"></script>
+  <script src='https://d3js.org/d3.v5.min.js'></script>
+  <style>
+    .tooltip {
+      opacity: 0;
+      background-color: black;
+      color: white;
+
+    }
+  </style>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section">
+            <div class="slide">
+                <h2>Best Selling PS4 Games by Title</h2>
+                <div class="scene1">
+                    <div class="chart1">
+                        <svg width="1000" height="400" id="svg1"></svg>
+                        <script src="chart1.js"></script>
+                    </div>
+                <p>&nbsp;</p>
+                <button id="button1" onclick="window.location.href='../pages/about.html';">Previous</button>
+                <button id="button2" onclick="window.location.href='../index.html';">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
