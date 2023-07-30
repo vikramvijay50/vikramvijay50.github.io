@@ -12,10 +12,10 @@
   <script src='https://d3js.org/d3.v5.min.js'></script>
 </head>
 <body>
-  <h2>Best Selling PS4 Games by Title</h2>
+  <h2>Games Sold by Genres</h2>
       <div id="chart1">
           <svg width="1000" height="800" id="svg1"></svg>
-          <script src="../scripts/scene1.js"></script>
+          <script src="../scripts/scene2.js"></script>
           <div id="tooltip"></div>
           <p>&nbsp;</p>
           <input type="checkbox" checked="checked" id="action-adventure" onClick="updateChart()"> Action-Adventure</input>
@@ -35,19 +35,20 @@
           <input type="checkbox" checked="checked" id="sandbox_survival" onClick="updateChart()"> Sandbox Survival</input>
           <p>&nbsp;</p>
           <h3>
-            This chart explores the amount of copies sold for each best selling PS4 title. These titles were all massive successes but we can 
-            see some trends looking at game genres as well as publishers. Players seem to enjoy action style games the most as most all of the 
-            titles in this chart belong to some form of that genre. However even in that genre there are multiple sub-genres and preferences 
-            players seem to have in those as well. 
+            This chart takes a further look into how popular each PS4 game genre was. This new view allows us to visulize just how popular those 
+            action genre games were with those titles taking up over 75% of all best selling titles! The next best selling title after them in 
+            Racing but the difference is interesting to see. Developers and publishers seem receptive to that idea as most of these titles are 
+            action genre titles.
           </h3>
           <p>&nbsp;</p>
           <h3>
-            Click on the checkboxes to filter the chart by game genre and mouse over the bars to view more information! 
+            Click on the checkboxes to filter the chart by game genre and mouse over the chart to view more information! 
           </h3>
           <p>&nbsp;</p>
-          <button id="button1" onclick="window.location.href='../pages/about.html';">Previous</button>
-          <button id="button2" onclick="window.location.href='../pages/scene2.html';">Next</button>
+          <button id="button3" onclick="window.location.href='../pages/scene1.html';">Previous</button>
+          <button id="button4" onclick="window.location.href='../pages/scene3.html';">Next</button>
       </div>
+    
 </body>
 
 </html>
